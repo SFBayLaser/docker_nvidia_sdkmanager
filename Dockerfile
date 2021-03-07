@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
 	git \
 	libgtk2.0-dev \
 	pkg-config \
+	xorg \
 	libavcodec-dev \
 	libavformat-dev \
 	libswscale-dev\
@@ -18,12 +19,7 @@ RUN apt-get update && apt-get install -y \
 	libeigen3-dev \
 	liblapack-dev \
 	libatlas-base-dev \
-	libgomp1 \
-    libXdmcp libXdmcp.i686 \
-    libxcb libxcb.i686 \
-    libXext libXext.i686 \
-    libXtst libXtst.i686 \
-    libX11 libX11.i686
+	libgomp1 
 
 
 RUN cd && \
