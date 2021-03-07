@@ -19,7 +19,8 @@ RUN apt-get update && apt-get install -y \
 	libeigen3-dev \
 	liblapack-dev \
 	libatlas-base-dev \
-	libgomp1 
+	libgomp1 \
+	libx11-dev
 
 
 RUN cd && \
