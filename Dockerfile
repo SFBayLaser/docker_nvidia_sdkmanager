@@ -18,7 +18,13 @@ RUN apt-get update && apt-get install -y \
 	libeigen3-dev \
 	liblapack-dev \
 	libatlas-base-dev \
-	libgomp1 
+	libgomp1 \
+    libXdmcp libXdmcp.i686 \
+    libxcb libxcb.i686 \
+    libXext libXext.i686 \
+    libXtst libXtst.i686 \
+    libX11 libX11.i686
+
 
 RUN cd && \
     git clone https://github.com/SFBayLaser/docker_nvidia_sdkmanager.git && \
