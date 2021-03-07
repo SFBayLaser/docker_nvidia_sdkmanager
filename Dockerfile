@@ -20,8 +20,8 @@ RUN apt-get update && apt-get install -y \
 	libatlas-base-dev \
 	libgomp1 
 
-
-COPY sdkmanager_1.4.1-7402_amd64.deb /data/sdkmanager_1.4.1-7402_amd64.deb
-
-RUN apt-get install -y /data/sdkmanager_1.4.1-7402_amd64.deb
+RUN cd && \
+    git clone https://github.com/SFBayLaser/docker_nvidia_sdkmanager.git && \
+    cd docker_nvidia_sdkmanager && \
+    apt-get install -y ./sdkmanager_1.4.1-7402_amd64.deb
 
