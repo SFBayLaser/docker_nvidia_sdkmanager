@@ -19,7 +19,8 @@ RUN apt-get update && apt-get install -y \
 	liblapack-dev \
 	libatlas-base-dev \
 	libgomp1 \
-	libx11-dev
+	libx11-dev \
+	libxtst-dev
 
 
 RUN cd && \
