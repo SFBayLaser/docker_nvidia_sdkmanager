@@ -7,7 +7,6 @@ RUN apt-get update && apt-get install -y \
 	git \
 	libgtk2.0-dev \
 	pkg-config \
-	xorg \
 	libavcodec-dev \
 	libavformat-dev \
 	libswscale-dev\
