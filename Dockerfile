@@ -20,7 +20,8 @@ RUN apt-get update && apt-get install -y \
 	libatlas-base-dev \
 	libgomp1 \
 	libx11-dev \
-	libxtst-dev
+	libxtst-dev \
+	libnss3
 
 
 RUN cd && \
