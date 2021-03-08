@@ -22,7 +22,8 @@ RUN apt-get update && apt-get install -y \
 	libx11-dev \
 	libxtst-dev \
 	libnss3 \
-	libgtk-3-dev 
+	libgtk-3-dev \
+	libxss1
 
 
 RUN cd && \
