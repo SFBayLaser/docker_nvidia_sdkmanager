@@ -21,7 +21,8 @@ RUN apt-get update && apt-get install -y \
 	libgomp1 \
 	libx11-dev \
 	libxtst-dev \
-	libnss3
+	libnss3 \
+	libgtk-3-dev 
 
 
 RUN cd && \
