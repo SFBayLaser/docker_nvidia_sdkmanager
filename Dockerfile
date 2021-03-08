@@ -23,7 +23,8 @@ RUN apt-get update && apt-get install -y \
 	libxtst-dev \
 	libnss3 \
 	libgtk-3-dev \
-	libxss1
+	libxss1 \
+	libcanberra-gtk-module
 
 
 RUN cd && \
